@@ -2,9 +2,30 @@
   "version": 2,
   "rewrites": [
     {
+      "source": "/locale/language.js",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "dm-lang",
+          "value": "en"
+        }
+      ],
+      "destination": "/locale/dm-en.js"
+    },
+    {
+      "source": "/locale/language.js",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "dm-lang",
+          "value": "ar"
+        }
+      ],
+      "destination": "/locale/dm-ar.js"
+    },
+    {
       "source": "/([^.]+)",
       "destination": "/"
     }
   ]
 }
- 
