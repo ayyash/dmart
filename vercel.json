@@ -17,6 +17,21 @@
       "destination": "/locale/dm-en.js"
     },
     {
+      "source": "/rtlstyles.css",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "dm-lang",
+          "value": "ar"
+        }
+      ],
+      "destination": "/styles.rtl.css"
+    },
+    {
+      "source": "/rtlstyles.css",
+      "destination": ""
+    },
+    {
       "source": "/([^.]+)",
       "destination": "/"
     }
